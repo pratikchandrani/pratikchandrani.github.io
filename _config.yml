@@ -11,8 +11,6 @@ image:
   width: 200
 
 google_analytics: G-Z7EKMZLYJ3
-plugins:
-  - jekyll-google-photos
 
 include:
   - _pages

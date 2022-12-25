@@ -1,0 +1,27 @@
+// #############
+// # Font size #
+// #############
+
+$font-size-base: 18;
+
+$spacer: 1rem;
+$spacers: (
+  0: 0,
+  1: $spacer * .25,
+  2: $spacer * .5,
+  3: $spacer,
+  4: $spacer * 1.5,
+  5: $spacer * 3,
+);
+
+// ###############
+// # Font colors #
+// ###############
+
+$theme-colors: (  // https://coolors.co/palette/227c9d-17c3b2-ffcb77-fef9ef-fe6d73
+  "primary": #227C9D,
+  "danger": #fe6d73,
+);
+$code-color: #17C3B2;
+
+@import "bootstrap/bootstrap";

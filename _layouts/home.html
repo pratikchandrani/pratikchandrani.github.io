@@ -1,0 +1,38 @@
+---
+layout: default
+---
+
+<div class="home">
+  <p>
+    <img class="rounded-circle mx-auto d-block mt-5"
+         style="width: 200px;"
+         src="/assets/img/eric.jpg"
+         alt="avatar">
+  </p>
+
+  <div class="text-center mb-5">
+    <h1>{{ site.author }}</h1>
+    <h5>{{ site.tagline }}</h5>
+  </div>
+
+  <h2>About</h2>
+  {{ content }}
+
+   <div class="row mt-5">
+
+    <div class="col">
+      <h2>
+        <!-- <i class="fas fa-pen-nib"></i> -->
+        Latest blog posts
+      </h2>
+
+      {%- for post in site.posts limit:5 -%}
+        {%- include components/post_preview.html -%}
+      {%- endfor -%}
+
+      <a href="/blog/"><p>See all posts <i class="fas fa-arrow-right"></i></p></a>
+    </div>
+
+  </div>
+
+</div>

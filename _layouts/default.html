@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: 'en' }}">
+
+  {%- include sections/head.html -%}
+
+  <body>
+      <div class="container-fluid" style="max-width: 900px;">
+        {%- include sections/header.html -%}
+
+        {{ content }}
+
+        <div class="mt-5">
+          {%- include sections/footer.html -%}
+        </div>
+      </div>
+  </body>
+
+</html>

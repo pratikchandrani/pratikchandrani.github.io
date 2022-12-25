@@ -1,0 +1,49 @@
+<header class="site-header" role="banner">
+
+  <nav class="navbar navbar-expand-sm navbar-light px-0">
+
+    <!-- Navbar brand -->
+    <a class="navbar-brand" href="/">{{ site.author }}</a>
+
+    <!-- Navbar toggler button -->
+    <button class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarToggler"
+            aria-controls="navbarToggler"
+            aria-expanded="false"
+            aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <!-- Navbar links -->
+    {%- assign default_paths = site.pages | map: "path" -%}
+    {%- assign page_paths = site.header_pages | default: default_paths -%}
+
+    <div class="collapse navbar-collapse" id="navbarToggler">
+      <ul class="navbar-nav mr-auto">
+        <!-- Navbar left  -->
+      </ul>
+
+      <ul class="nav navbar-nav navbar-right">
+        <!-- Navbar right  -->
+        <a class="nav-link" href="{{ site.blog_url | relative_url }}">
+          Blog
+        </a>
+
+        <a class="nav-link" href="{{ '/research' | relative_url }}">
+          Research
+        </a>
+
+        <a class="nav-link" href="{{ '/music' | relative_url }}">
+          Music
+        </a>
+
+        <a class="nav-link" href="{{ '/photography' | relative_url }}">
+          Photography
+        </a>
+      </ul>
+    </div>
+  </nav>
+
+</header>

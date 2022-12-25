@@ -1,0 +1,26 @@
+---
+permalink: /404.html
+layout: default
+cover: dead-end.jpg
+sitemap: false
+---
+
+<div class="row text-center mt-5 mb-5">
+  <div class="col">
+    <h1>404</h1>
+    <p class="text-center">Page not found :(</p>
+    <p class="text-center">Unfortunately the requested page could not be found.</p>
+  </div>
+</div>
+
+
+<div class="row mt-5 mb-5">
+  <div class="col">
+    <h2>Last blog posts</h2>
+
+    {%- for post in site.posts limit:5 -%}
+      {%- include components/post_preview.html -%}
+    {%- endfor -%}
+  </div>
+</div>
+

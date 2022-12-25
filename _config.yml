@@ -1,0 +1,69 @@
+title: Eric Daoud-Attoyan, Data Scientist & Full Stack Developer
+author: Eric Daoud-Attoyan
+tagline: Data Scientist & Full Stack Developer
+description: Data Scientist and Full Stack Developer with
+    experience in NLP and Recommender Systems. PhD in
+    Machine Learning applied to oncology. Currently Founder in Residence 
+    at Entrepreneur First.
+baseurl: ""
+url: "http://edaoud.com"
+type: website
+image:
+  path: /assets/img/eric.jpg
+  height: 200
+  width: 200
+
+google_analytics: G-C7H7C41EHC
+
+include:
+  - _pages
+
+sass_dir: ./_sass
+
+markdown: kramdown
+highlighter: rouge
+kramdown:
+  input: GFM  # Github Flavored Markdown
+  hard_wrap: false
+  syntax_highlighter: rouge
+
+twitter_username: ericdaoud
+github_username:  ericdaat
+linkedin_username: ericdaoud
+youtube_username: EricDaoud
+instagram_username: ericda
+500px_username: ericda
+scholar_id: 6MyQM4wAAAAJ
+
+social:
+  name: Eric Daoud
+  links:
+    - https://twitter.com/ericdaoud
+    - https://www.linkedin.com/in/ericdaoud
+    - https://github.com/ericdaat
+    - https://instagram.com/ericda
+    - https://youtube.com/c/EricDaoud
+    - https://500px.com/ericda
+
+# blog
+blog_url: /blog
+permalink: /blog/:year/:month/:day/:title/
+show_excerpts: True
+paginate: 5
+paginate_path: blog/page/:num
+defaults:
+  - scope:
+      path: "blog/page"
+    values:
+      sitemap: false
+disqus:
+  shortname: edaoud
+
+# Build settings
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+  - jekyll-paginate
+  - jekyll-gist
+  - jekyll-redirect-from

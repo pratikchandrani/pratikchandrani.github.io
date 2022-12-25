@@ -27,7 +27,7 @@ kramdown:
 
 twitter_username: pratikchandrani
 github_username:  pratikchandrani
-linkedin_username: pratikchandrani
+linkedin_username: pratik-chandrani-phd-b550b5112
 youtube_username: pratikchandrani
 instagram_username: pratikchandrani
 scholar_id: JALyxVsAAAAJ
@@ -36,7 +36,7 @@ social:
   name: Pratik Chandrani
   links:
     - https://twitter.com/pratikchandrani
-    - https://www.linkedin.com/in/pratikchandrani
+    - https://www.linkedin.com/in/pratik-chandrani-phd-b550b5112
     - https://github.com/pratikchandrani
     - https://instagram.com/pratikchandrani
     - https://youtube.com/c/pratikchandrani
@@ -53,7 +53,7 @@ defaults:
     values:
       sitemap: false
 disqus:
-  shortname: edaoud
+  shortname: pratikchandrani
 
 # Build settings
 plugins:

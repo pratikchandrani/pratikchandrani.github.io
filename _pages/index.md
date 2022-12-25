@@ -14,19 +14,32 @@ Namaste!
 Assistant Professor heading research laboratory at [Tata Memorial Centre](https://tmc.gov.in/).
 
 Main academic interests of my laboratory: Computational Biology, Bioinformatics, Artificial Intelligence, Fundamental Biology
-![Laboratory Research Theme]([/pratikchandrani.github.io/blob/code/static/AI_big-data_20210826.png](https://github.com/pratikchandrani/pratikchandrani.github.io/blob/code/static/AI_big-data_20210826.png))
+
+
+
+[Laboratory Research Theme](/assets/img/AI_big-data_20210826.png)
 
 If you are interested to work with my group, please apply [here](https://forms.gle/GmnGxzb7Axzfgirg6)
 
 Academic Highlights [Detailed Resume](https://pratikchandrani.github.io/resume.pdf)
+
 •	Technology transfer of precision medicine solution ‘ClinOme’
+
 •	Recipient of Foundation Day Award for outstanding PhD thesis across all sister institutes of [Homi Bhabha National Institute](http://www.hbni.ac.in/)
+
 •	Secured funding from DST, NSM, DBT as PI and co-PI.
+
 •	Bioinformatics software tools I developed are in active use by more than 300 researchers across 11 countries.
+
 •	Received numerous student awards at various International/National conference presentations during my Ph.D. and M.Sc. tenure
+
 •	Qualified UGC-CSIR National Eligibility Test (NET)
+
 •	Qualified IIT-Graduate Aptitude Test Engineering (GATE) in Biotechnology
+
 •	Qualified IIT-GATE in Life Science
+
 •	Sam Mistry Award for International Travel
+
 •	Patel Charitable Trust Award for International Travel
 

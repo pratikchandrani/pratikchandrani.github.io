@@ -1,19 +1,17 @@
-title: Eric Daoud-Attoyan, Data Scientist & Full Stack Developer
-author: Eric Daoud-Attoyan
-tagline: Data Scientist & Full Stack Developer
-description: Data Scientist and Full Stack Developer with
-    experience in NLP and Recommender Systems. PhD in
-    Machine Learning applied to oncology. Currently Founder in Residence 
-    at Entrepreneur First.
+title: Pratik Chandrani, Computational Biologist & Data Scientist
+author: Pratik Chandrani
+tagline: Computational Biologist & Data Scientist
+description: Computational Biologist & Data Scientist with
+    experience in genomics, proteomics, artificial intelligence and data science.
 baseurl: ""
-url: "http://edaoud.com"
+url: "http://pratikchandrani.github.io"
 type: website
 image:
-  path: /assets/img/eric.jpg
+  path: /assets/img/pratik-chandrani.jpg
   height: 200
   width: 200
 
-google_analytics: G-C7H7C41EHC
+google_analytics: G-Z7EKMZLYJ3
 
 include:
   - _pages
@@ -27,23 +25,21 @@ kramdown:
   hard_wrap: false
   syntax_highlighter: rouge
 
-twitter_username: ericdaoud
-github_username:  ericdaat
-linkedin_username: ericdaoud
-youtube_username: EricDaoud
-instagram_username: ericda
-500px_username: ericda
-scholar_id: 6MyQM4wAAAAJ
+twitter_username: pratikchandrani
+github_username:  pratikchandrani
+linkedin_username: pratikchandrani
+youtube_username: pratikchandrani
+instagram_username: pratikchandrani
+scholar_id: JALyxVsAAAAJ
 
 social:
-  name: Eric Daoud
+  name: Pratik Chandrani
   links:
-    - https://twitter.com/ericdaoud
-    - https://www.linkedin.com/in/ericdaoud
-    - https://github.com/ericdaat
-    - https://instagram.com/ericda
-    - https://youtube.com/c/EricDaoud
-    - https://500px.com/ericda
+    - https://twitter.com/pratikchandrani
+    - https://www.linkedin.com/in/pratikchandrani
+    - https://github.com/pratikchandrani
+    - https://instagram.com/pratikchandrani
+    - https://youtube.com/c/pratikchandrani
 
 # blog
 blog_url: /blog

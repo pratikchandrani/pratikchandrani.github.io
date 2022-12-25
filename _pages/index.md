@@ -16,10 +16,7 @@ Assistant Professor heading research laboratory at [Tata Memorial Centre](https:
 Main academic interests of my laboratory: Computational Biology, Bioinformatics, Artificial Intelligence, Fundamental Biology
 
 
-<p align="center">
-  <img alt="Laboratory Research Theme" title="Laboratory Research Theme" src="/assets/img/AI_big-data_20210826_small.png">
-</p>
-
+<iframe src="https://drive.google.com/file/d/1Xex2krPmMt6BX4LdnS4WeaVI8yQ18J4J/preview" width="640" height="480" allow="autoplay"></iframe>
 
 If you are interested to work with my group, please apply [here](https://forms.gle/GmnGxzb7Axzfgirg6)
 

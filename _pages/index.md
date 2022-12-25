@@ -17,7 +17,7 @@ Main academic interests of my laboratory: Computational Biology, Bioinformatics,
 
 
 <p align="center">
-  <img alt="Laboratory Research Theme" title="Laboratory Research Theme" src="/assets/img/AI_big-data_20210826.png">
+  <img alt="Laboratory Research Theme" title="Laboratory Research Theme" src="/assets/img/AI_big-data_20210826_small.png">
 </p>
 
 

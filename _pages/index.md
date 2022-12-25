@@ -16,12 +16,14 @@ Assistant Professor heading research laboratory at [Tata Memorial Centre](https:
 Main academic interests of my laboratory: Computational Biology, Bioinformatics, Artificial Intelligence, Fundamental Biology
 
 
+<p align="center">
+  <img alt="Laboratory Research Theme" title="Laboratory Research Theme" src="/assets/img/AI_big-data_20210826.png">
+</p>
 
-[Laboratory Research Theme](/assets/img/AI_big-data_20210826.png)
 
 If you are interested to work with my group, please apply [here](https://forms.gle/GmnGxzb7Axzfgirg6)
 
-Academic Highlights [Detailed Resume](https://pratikchandrani.github.io/resume.pdf)
+Academic Highlights [Detailed Resume](/assets/img/pratik_chandrani_resume.pdf)
 
 •	Technology transfer of precision medicine solution ‘ClinOme’
 

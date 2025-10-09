@@ -2,9 +2,9 @@
 layout: page
 title: Research
 permalink: /research/
-cover: research.jpg
-last_modified_at: 2020-05-12
-image: /assets/img/eric.jpg
+cover: /assets/img/AI_big-data_20210826_small.png
+last_modified_at: 2025-10-09
+image: /assets/img/pratik_chandrani.jpg
 ---
 
 <p>
@@ -48,6 +48,12 @@ image: /assets/img/eric.jpg
     <li class="list-group-item border-0 mx-0 px-0">
         {{ publication.authors }} ({{ publication.year }}).
         <strong>{{ publication.title }}</strong>
+        {%- if publication.journal -%}
+        <em>{{ publication.journal }}.</em>
+        {%- endif -%}
+        {%- if publication.pmid -%}
+        PMID: {{ publication.pmid }}.
+        {%- endif -%}
         [<a href="{{ publication.publication }}" target="_blank">publication</a>]
         {%- if publication.code -%}
         [<a href="{{ publication.code }}" target="_blank">code</a>]
@@ -61,5 +67,5 @@ image: /assets/img/eric.jpg
 
 <p class="mt-4">
     The full list of my publications is available on my
-    <a href="https://scholar.google.com/citations?user=6MyQM4wAAAAJ&hl=en">Google Scholar profile</a>.
+    <a href="https://scholar.google.com/citations?user=JALyxVsAAAAJ&hl=en">Google Scholar profile</a>.
 </p>

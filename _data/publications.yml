@@ -1,11 +1,328 @@
-- title: "SiMCa: Sinkhorn Matrix Factorization with Capacity Constraints"
-  authors: "Eric Daoud, Luca Ganassali, Antoine Baker, Marc Lelarge"
-  year: 2022
-  publication: https://arxiv.org/abs/2203.10107
-  code: https://github.com/ericdaat/SiMCa
+- title: "Induction of cancer stem cells from mouse fibroblasts"
+  authors: "Shabrish S, Naorem LD, Mohanty S, Kumar R, Lopes R, Akhter N, Khare NK, Joshi R, Sawant R, Raghuram GV, Jadhav V, Shinde S, Chandrani P, Mittra I"
+  year: 2025
+  journal: "Sci Rep"
+  pmid: 40664734
+  publication: https://doi.org/10.1038/s41598-025-09686-5
 
-- title: "Disparities in accessibility to oncology care centers in France."
-  authors: "Eric Daoud, Anne-Sophie Hamy-Petit, Elise Dumas, Lidia Delrieu, Beatriz Grandal Rejo, Christine Le Bihan-Benjamin, Sophie Houzard, Philippe-Jean Bousquet, Judicaël Hotton, Aude-Marie Savoye, Christelle Jouannaud, Chloé-Agathe Azencott, Marc Lelarge, and Fabien Reyal"
+- title: "Comprehensive Genomic Profiling of Anaplastic Thyroid Cancer Identifies Alterations in THRA, a Potential Modifier of Cellular Plasticity"
+  authors: "Trivedi V, Noronha V, Bal M, Chandrani P, Poojary D, Saldanha E, Choughule A, Pange P, Gupta V, Menon N, Patil V, Shah M, Chaturvedi P, Prabhash K, Dutt A"
+  year: 2025
+  journal: "JCO Glob Oncol"
+  pmid: 40674659
+  publication: https://doi.org/10.1200/GO-24-00610
+
+- title: "Assessment of plasma derived microbiome profiles in lung cancer using targeted and whole exome sequencing"
+  authors: "Behel V, Hait S, Noronha V, Chowdhury A, Chandrani P, Patil V, Menon N, Mishra R, Bawaskar B, Dahimbekar G, Shah M, Kaushal R, Veldore V, Goswami H, Bharde A, Khandare J, Shafi G, Choughule A, Tyagi N, Desai S, Prabhash K, Dutt A"
+  year: 2025
+  journal: "NPJ Syst Biol Appl"
+  pmid: 40483308
+  publication: https://doi.org/10.1038/s41540-025-00536-8
+
+- title: "Genomic Profiling of Driver Gene Alterations in Patients With Non-Small Cell Lung Cancer, Patterns of Treatment and Impact on Survival Outcomes: A Single Center Experience of More Than 1200 Patients"
+  authors: "Shah M, Noronha V, Patil V, Singh AK, Menon N, Goud S, Shah S, More S, Kapoor A, Mishra BK, Chandrani P, Chougule A, Gupta V, Pange P, Shetty O, Pai T, Kaushal R, Yadav S, Basu M, Vora D, Vaidyanathan A, Kumar P, Jacob R, Shah A, Pradhan RR, Samaddar D, Shenoy V, Singh B, Puviarasan R, Bagra S, Desai R, Saldanha E, Poojary D, Pathak A, Ray S, Bhardwaj H, Shetty U, Iyer R, Das R, Mer N, Shah H, Kaushal Y, Singh A, Panmand H, Gosavi G, Ubharay A, Iyer A, Turel U, Shetake A, Maske K, Janu A, Purandare N, Pawar A, Mandhania M, Prabhash K"
+  year: 2025
+  journal: "Clin Lung Cancer"
+  pmid: 40050197
+  publication: https://doi.org/10.1016/j.cllc.2025.02.001
+
+- title: "Genomic Characterization of Papillary Thyroid Cancer Reveals Germline Mutations Associated With Congenital Hypothyroidism"
+  authors: "Trivedi V, Kore H, Poojary D, Noronha V, Bal M, Chandrani P, Choughule A, Pange P, Gupta V, Menon N, Patil V, Shah M, Chaturvedi P, Prabhash K, Dutt A"
+  year: 2025
+  journal: "JCO Glob Oncol"
+  pmid: 40440572
+  publication: https://doi.org/10.1200/GO-25-00043
+
+- title: "The impact of co-occurring tumor suppressor mutations with mEGFR as early indicators of relapse in lung cancer"
+  authors: "Hait S, Noronha V, Chowdhury A, Chaudhary A, Bawaskar B, Dahimbekar G, Ahmad S, Joshi A, Patil V, Menon N, Shah M, Kaushal R, Choughule A, Bharde A, Khandare J, Shafi G, Lakhwani D, Desai S, Chandrani P, Prabhash K, Dutt A"
+  year: 2025
+  journal: "ESMO Open"
+  pmid: 40088801
+  publication: https://doi.org/10.1016/j.esmoop.2025.104479
+
+- title: "Clinical characteristics and first-line palliative treatment patterns in 3,414 patients with advanced lung cancer in India"
+  authors: "Trikha M, Noronha V, Shah M, Patil V, Menon N, Singh A, Chandrani P, Shetty O, Kaushal RK, Pai T, Janu A, Purandare N, Prabhash K"
+  year: 2025
+  journal: "Ecancermedicalscience"
+  pmid: 40492223
+  publication: https://doi.org/10.3332/ecancer.2025.1867
+
+- title: "Deep Diving Into the Fusion Across Cancer Types in the Indian Population From Formalin-Fixed Paraffin-Embedded RNA-Exome Data: A Road to Discovering Novel Rearrangements With Clinical Relevance"
+  authors: "Khuntia SP, Mukherjee N, Javle V, Tanwar NA, Sreekanthreddy P, Varghese L, Gowda P, Kottlahouse A, Chandrani P, Choughule A, Pange P, Gupta V, Noronha V, Patil VM, Pramanik R, Kumar S, Nayak SP, Babu S, Shetty R, Kantharaju M, Chinder PS, Korlimarla A, Srinath BS, Prabhash K, Periyasamy G, Rishi KD, Goswami HM, Veldore VH"
+  year: 2024
+  journal: "JCO Glob Oncol"
+  pmid: 39571115
+  publication: https://doi.org/10.1200/GO-24-00289
+
+- title: "Uniqueness of lung cancer in Southeast Asia"
+  authors: "Noronha V, Budukh A, Chaturvedi P, Anne S, Punjabi A, Bhaskar M, Sahoo TP, Menon N, Shah M, Batra U, Nathany S, Kumar R, Shetty O, Ghodke TP, Mahajan A, Chakrabarty N, Hait S, Tripathi SC, Chougule A, Chandrani P, Tripathi VK, Jiwnani S, Tibdewal A, Maheshwari G, Kothari R, Patil VM, Bhat RS, Khanderia M, Mahajan V, Prakash R, Sharma S, Jabbar AA, Yadav BK, Uddin AFMK, Dutt A, Prabhash K"
+  year: 2024
+  journal: "Lancet Reg Health Southeast Asia"
+  pmid: 39157507
+  publication: https://doi.org/10.1016/j.lansea.2024.100430
+
+- title: "RET Alterations Differentiate Molecular Profile of Medullary Thyroid Cancer"
+  authors: "Prabhash K, Saldanha E, Patil V, Bal M, Reddy PS, Sanjeev A, Kumar R, Poojary D, Noronha V, Menon N, Mittal N, Trivedi V, Nambiar K, Mishra R, Tanwar N, Malhotra R, Pange P, Gupta V, Veldore VH, Chougule A, Chaturvedi P, Dutt A, Chandrani P"
+  year: 2024
+  journal: "JCO Precis Oncol"
+  pmid: 38754058
+  publication: https://doi.org/10.1200/PO.23.00622
+
+- title: "Clinical characteristics, outcomes and prognostic factors in KRAS mutant lung cancers: experience from a tertiary care cancer center in India"
+  authors: "Noronha V, Sarkar L, Patil V, Menon N, Shah M, Pawar A, Chowdhury OR, Shetty O, Chougule A, Chandrani P, Kaushal R, Pai T, Janu A, Chakrabarty N, Prabhash K"
+  year: 2024
+  journal: "Ecancermedicalscience"
+  pmid: 38439805
+  publication: https://doi.org/10.3332/ecancer.2024.1674
+
+- title: "Natural History of Germline BRCA1 Mutated and BRCA Wild-type Triple-negative Breast Cancer"
+  authors: "Gardi N, Chaubal R, Parab P, Pachakar S, Kulkarni S, Shet T, Joshi S, Kembhavi Y, Chandrani P, Quist J, Kowtal P, Grigoriadis A, Sarin R, Govindarajan R, Gupta S"
+  year: 2024
+  journal: "Cancer Res Commun"
+  pmid: 38315150
+  publication: https://doi.org/10.1158/2767-9764.CRC-23-0277
+
+- title: "The Role of Systemic Therapy in Patients with Advanced Non-small Cell Lung Cancer and a Poor Eastern Cooperative Oncology Group Performance Status"
+  authors: "Shah M, Noronha V, Patil V, Menon N, Singh AK, Shah A, Kumar P, Roychoudhary O, Peelay Z, Janu A, Purandare N, Chakrabarty N, Patil V, Kaushal R, Shetty O, Pai T, Chandrani P, Chougule A, Prabhash K"
+  year: 2024
+  journal: "Clin Oncol (R Coll Radiol)"
+  pmid: 38097463
+  publication: https://doi.org/10.1016/j.clon.2023.12.001
+
+- title: "Whole exome sequencing uncovers HRAS mutations as potential mediators of resistance to metronomic chemotherapy"
+  authors: "Sambath J, Noronha V, Manda SS, Mishra R, Chandrani P, Patil V, Menon N, Chougule A, Ramachandran V, Limaye S, Kuriakose MA, Banavali SD, Kumar P, Prabhash K"
+  year: 2024
+  journal: "Gene"
+  pmid: 37918550
+  publication: https://doi.org/10.1016/j.gene.2023.147952
+
+- title: "Association of Cutibacterium acnes with human thyroid cancer"
+  authors: "Trivedi V, Noronha V, Sreekanthreddy P, Desai S, Poojary D, Varghese L, Gowda P, Butle A, Mishra R, Bal M, Mittal N, Rane S, Kane S, Basu S, Patil V, Menon N, Singh AK, Chaturvedi P, Chandrani P, Choughule A, Veldore V, Prabhash K, Dutt A"
+  year: 2023
+  journal: "Front Endocrinol (Lausanne)"
+  pmid: 38027096
+  publication: https://doi.org/10.3389/fendo.2023.1152514
+
+- title: "Real-World Evidence of EGFR Targeted Therapy in NSCLC- A Brief Report of Decade Long Single Center Experience"
+  authors: "Chougule A, Chandrani P, Noronha V, Pange P, Kale S, Nikam A, Nambiar K, Marchande D, Durve A, Gupta V, Jagtap V, Tiwrekar P, Menon N, Joshi A, Kaushal R, Pai T, Patil VM, Dutt A, Banavali SD, Prabhash K"
+  year: 2023
+  journal: "JTO Clin Res Rep"
+  pmid: 38033811
+  publication: https://doi.org/10.1016/j.jtocrr.2023.100566
+
+- title: "Understanding the Impact of Population and Cancer Type on Tumor Mutation Burden Scores: A Comprehensive Whole-Exome Study in Cancer Patients From India"
+  authors: "Tanwar NA, Malhotra R, Satheesh AP, Khuntia SP, Sreekanthreddy P, Varghese L, Kolla S, Chandrani P, Choughule A, Pange P, Gupta V, Noronha V, Patil VM, Pramanik R, Kumar S, Nayak SP, Babu S, Shetty R, Kantharaju M, Chinder PS, Korlimarla A, Srinath BS, Prabhash K, Rishi KD, Goswami HM, Veldore VH"
+  year: 2023
+  journal: "JCO Glob Oncol"
+  pmid: 38085046
+  publication: https://doi.org/10.1200/GO.23.00047
+
+- title: "In silico structural analysis of secretory clusterin to assess pathogenicity of mutations identified in the evolutionarily conserved regions"
+  authors: "Das L, Shekhar S, Chandrani P, Varma AK"
+  year: 2023
+  journal: "J Biomol Struct Dyn"
+  pmid: 34821197
+  publication: https://doi.org/10.1080/07391102.2021.2007791
+
+- title: "Progesterone modulates the DSCAM-AS1/miR-130a/ESR1 axis to suppress cell invasion and migration in breast cancer"
+  authors: "Yadav N, Sunder R, Desai S, Dharavath B, Chandrani P, Godbole M, Dutt A"
+  year: 2022
+  journal: "Breast Cancer Res"
+  pmid: 36578092
+  publication: https://doi.org/10.1186/s13058-022-01597-x
+
+- title: "Integrated proteomics and phosphoproteomics revealed druggable kinases in neoadjuvant chemotherapy resistant tongue cancer"
+  authors: "George IA, Sathe G, Ghose V, Chougule A, Chandrani P, Patil V, Noronha V, Venkataramanan R, Limaye S, Pandey A, Prabhash K, Kumar P"
+  year: 2022
+  journal: "Front Cell Dev Biol"
+  pmid: 36393868
+  publication: https://doi.org/10.3389/fcell.2022.957983
+
+- title: "In vivo tumor immune microenvironment phenotypes correlate with inflammation and vasculature to predict immunotherapy response"
+  authors: "Sahu A, Kose K, Kraehenbuehl L, Byers C, Holland A, Tembo T, Santella A, Alfonso A, Li M, Cordova M, Gill M, Fox C, Gonzalez S, Kumar P, Wang AW, Kurtansky N, Chandrani P, Yin S, Mehta P, Navarrete-Dechent C, Peterson G, King K, Dusza S, Yang N, Liu S, Phillips W, Guitera P, Rossi A, Halpern A, Deng L, Pulitzer M, Marghoob A, Chen CJ, Merghoub T, Rajadhyaksha M"
+  year: 2022
+  journal: "Nat Commun"
+  pmid: 36085288
+  publication: https://doi.org/10.1038/s41467-022-32738-7
+
+- title: "Lung cancer with dual EGFR and ALK driver alterations at baseline: a retrospective observational cohort study"
+  authors: "Noronha V, Chougule A, Chandrani P, Kaushal RK, Patil VM, Menon N, Kapoor A, Chopade S, Singh A, Shetty O, Dutt A, Banavali S, Prabhash K"
+  year: 2022
+  journal: "Acta Oncol"
+  pmid: 35972844
+  publication: https://doi.org/10.1080/0284186X.2022.2109426
+
+- title: "Impact of Molecular Tumor Board on the Clinical Management of Patients With Cancer"
+  authors: "Behel V, Noronha V, Choughule A, Shetty O, Chandrani P, Kapoor A, Bondili SK, Bajpai J, Kumar R, Pai T, Bal M, Gurav M, Bapat P, Mittal N, Menon S, Patil V, Menon N, Dutt A, Prabhash K"
+  year: 2022
+  journal: "JCO Glob Oncol"
+  pmid: 35802838
+  publication: https://doi.org/10.1200/GO.22.00030
+
+- title: "Clinical Utility of Liquid Biopsy (Cell-free DNA) Based EGFR Mutation Detection Post treatment Initiation as a Disease Monitoring Tool in Patients With Advanced EGFR-mutant NSCLC"
+  authors: "Behel V, Chougule A, Noronha V, Patil VM, Menon N, Singh A, Chopade S, Kumar R, Shah S, More S, Banavali SD, Chandrani P, Prabhash K"
+  year: 2022
+  journal: "Clin Lung Cancer"
+  pmid: 35649817
+  publication: https://doi.org/10.1016/j.cllc.2022.04.002
+
+- title: "Comprehensive Development and Implementation of Good Laboratory Practice for NGS Based Targeted Panel on Solid Tumor FFPE Tissues in Diagnostics"
+  authors: "Chougule A, Jagtap V, Nikam A, Kale S, Nambiar K, Bagayatkar P, Chandrani P, Kaushal R, Noronha V, Patil V, Banavali S, Prabhash K"
+  year: 2022
+  journal: "Diagnostics (Basel)"
+  pmid: 35626446
+  publication: https://doi.org/10.3390/diagnostics12051291
+
+- title: "Treatment pattern and outcomes in de novo T790M-mutated non-small cell lung cancer"
+  authors: "Panda GS, Noronha V, Shah D, John G, Chougule A, Patil V, Kumar R, Menon N, Singh A, Chandrani P, Mahajan A, Prabhash K"
+  year: 2022
+  journal: "Ecancermedicalscience"
+  pmid: 35919239
+  publication: https://doi.org/10.3332/ecancer.2022.1385
+
+- title: "Fusobacterium nucleatum is associated with inflammation and poor survival in early-stage HPV-negative tongue cancer"
+  authors: "Desai S, Dharavath B, Manavalan S, Rane A, Redhu AK, Sunder R, Butle A, Mishra R, Joshi A, Togar T, Apte S, Bala P, Chandrani P, Chopra S, Bashyam MD, Banerjee A, Prabhash K, Nair S, Dutt A"
+  year: 2022
+  journal: "NAR Cancer"
+  pmid: 35252868
+  publication: https://doi.org/10.1093/narcan/zcac006
+
+- title: "Systemic Therapy in Thyroid Cancer"
+  authors: "Agrawal AK, Noronha V, Patil V, Menon N, Kapoor A, Chougule A, Chandrani P, Prabhash K"
+  year: 2022
+  journal: "Indian J Surg Oncol"
+  pmid: 35462658
+  publication: https://doi.org/10.1007/s13193-021-01398-2
+
+- title: "Landscape of toll-like receptors expression in tumor microenvironment of triple negative breast cancer (TNBC): Distinct roles of TLR4 and TLR8"
+  authors: "Roychowdhury A, Jondhale M, Saldanha E, Ghosh D, Kumar Panda C, Chandrani P, Mukherjee N"
   year: 2021
-  publication: https://www.medrxiv.org/content/10.1101/2021.09.29.21264296v3
-  url: https://oncology-accessibility.curie.fr/
+  journal: "Gene"
+  pmid: 34022297
+  publication: https://doi.org/10.1016/j.gene.2021.145728
+
+- title: "Molecular characterization of lung squamous cell carcinoma tumors reveals therapeutically relevant alterations"
+  authors: "Joshi A, Mishra R, Desai S, Chandrani P, Kore H, Sunder R, Hait S, Iyer P, Trivedi V, Choughule A, Noronha V, Joshi A, Patil V, Menon N, Kumar R, Prabhash K, Dutt A"
+  year: 2021
+  journal: "Oncotarget"
+  pmid: 33796225
+  publication: https://doi.org/10.18632/oncotarget.27905
+
+- title: "Metabolic rewiring in drug resistant cells exhibit higher OXPHOS and fatty acids as preferred major source to cellular energetics"
+  authors: "Salunkhe S, Mishra SV, Ghorai A, Hole A, Chandrani P, Dutt A, Chilakapati M, Dutt S"
+  year: 2020
+  journal: "Biochim Biophys Acta Bioenerg"
+  pmid: 32858000
+  publication: https://doi.org/10.1016/j.bbabio.2020.148300
+
+- title: "Merkel Cell Polyomavirus in Merkel Cell Carcinoma: Integration Sites and Involvement of the KMT2D Tumor Suppressor Gene"
+  authors: "Arora R, Choi JE, Harms PW, Chandrani P"
+  year: 2020
+  journal: "Viruses"
+  pmid: 32878339
+  publication: https://doi.org/10.3390/v12090966
+
+- title: "CytoPred: 7-gene pair metric for AML cytogenetic risk prediction"
+  authors: "Salunkhe S, Chandran N, Chandrani P, Dutt A, Dutt S"
+  year: 2020
+  journal: "Brief Bioinform"
+  pmid: 30380003
+  publication: https://doi.org/10.1093/bib/bby100
+
+- title: "Chromatin protein PC4 is downregulated in breast cancer to promote disease progression: Implications of miR-29a"
+  authors: "Sikder S, Kumari S, Kumar M, Sen S, Singhal NB, Chellappan S, Godbole M, Chandrani P, Dutt A, Gopinath KS, Kundu TK"
+  year: 2019
+  journal: "Oncotarget"
+  pmid: 31839879
+  publication: https://doi.org/10.18632/oncotarget.27325
+
+- title: "Merkel cell polyomavirus is implicated in a subset of Merkel cell carcinomas, in the Indian subcontinent"
+  authors: "Arora R, Rekhi B, Chandrani P, Krishna S, Dutt A"
+  year: 2019
+  journal: "Microb Pathog"
+  pmid: 31600537
+  publication: https://doi.org/10.1016/j.micpath.2019.103778
+
+- title: "ERBB2 and KRAS alterations mediate response to EGFR inhibitors in early stage gallbladder cancer"
+  authors: "Iyer P, Shrikhande SV, Ranjan M, Joshi A, Gardi N, Prasad R, Dharavath B, Thorat R, Salunkhe S, Sahoo B, Chandrani P, Kore H, Mohanty B, Chaudhari V, Choughule A, Kawle D, Chaudhari P, Ingle A, Banavali S, Gera P, Ramadwar MR, Prabhash K, Barreto SG, Dutt S, Dutt A"
+  year: 2019
+  journal: "Int J Cancer"
+  pmid: 30304546
+  publication: https://doi.org/10.1002/ijc.31916
+
+- title: "Up-regulation of the kinase gene SGK1 by progesterone activates the AP-1-NDRG1 axis in both PR-positive and -negative breast cancer cells"
+  authors: "Godbole M, Togar T, Patel K, Dharavath B, Yadav N, Janjuha S, Gardi N, Tiwary K, Terwadkar P, Desai S, Prasad R, Dhamne H, Karve K, Salunkhe S, Kawle D, Chandrani P, Dutt S, Gupta S, Badwe RA, Dutt A"
+  year: 2018
+  journal: "J Biol Chem"
+  pmid: 30337371
+  publication: https://doi.org/10.1074/jbc.RA118.002894
+
+- title: "miR-129-2 mediates down-regulation of progesterone receptor in response to progesterone in breast cancer cells"
+  authors: "Godbole M, Chandrani P, Gardi N, Dhamne H, Patel K, Yadav N, Gupta S, Badwe R, Dutt A"
+  year: 2017
+  journal: "Cancer Biol Ther"
+  pmid: 28876975
+  publication: https://doi.org/10.1080/15384047.2017.1373216
+
+- title: "Genomic characterization of tobacco/nut chewing HPV-negative early stage tongue tumors identify MMP10 asa candidate to predict metastases"
+  authors: "Upadhyay P, Gardi N, Desai S, Chandrani P, Joshi A, Dharavath B, Arora P, Bal M, Nair S, Dutt A"
+  year: 2017
+  journal: "Oral Oncol"
+  pmid: 28939077
+  publication: https://doi.org/10.1016/j.oraloncology.2017.08.003
+
+- title: "Drug-sensitive FGFR3 mutations in lung adenocarcinoma"
+  authors: "Chandrani P, Prabhash K, Prasad R, Sethunath V, Ranjan M, Iyer P, Aich J, Dhamne H, Iyer DN, Upadhyay P, Mohanty B, Chandna P, Kumar R, Joshi A, Noronha V, Patil V, Ramaswamy A, Karpe A, Thorat R, Chaudhari P, Ingle A, Choughule A, Dutt A"
+  year: 2017
+  journal: "Ann Oncol"
+  pmid: 27998968
+  publication: https://doi.org/10.1093/annonc/mdw636
+
+- title: "Notch pathway activation is essential for maintenance of stem-like cells in early tongue cancer"
+  authors: "Upadhyay P, Nair S, Kaur E, Aich J, Dani P, Sethunath V, Gardi N, Chandrani P, Godbole M, Sonawane K, Prasad R, Kannan S, Agarwal B, Kane S, Gupta S, Dutt S, Dutt A"
+  year: 2016
+  journal: "Oncotarget"
+  pmid: 27391340
+  publication: https://doi.org/10.18632/oncotarget.10419
+
+- title: "TMC-SNPdb: an Indian germline variant database derived from whole exome sequences"
+  authors: "Upadhyay P, Gardi N, Desai S, Sahoo B, Singh A, Togar T, Iyer P, Prasad R, Chandrani P, Gupta S, Dutt A"
+  year: 2016
+  journal: "Database (Oxford)"
+  pmid: 27402678
+  publication: https://doi.org/10.1093/database/baw104
+
+- title: "Non-typhoidal Salmonella DNA traces in gallbladder cancer"
+  authors: "Iyer P, Barreto SG, Sahoo B, Chandrani P, Ramadwar MR, Shrikhande SV, Dutt A"
+  year: 2016
+  journal: "Infect Agent Cancer"
+  pmid: 26941832
+  publication: https://doi.org/10.1186/s13027-016-0057-x
+
+- title: "Integrated genomics approach to identify biologically relevant alterations in fewer samples"
+  authors: "Chandrani P, Upadhyay P, Iyer P, Tanna M, Shetty M, Raghuram GV, Oak N, Singh A, Chaubal R, Ramteke M, Gupta S, Dutt A"
+  year: 2015
+  journal: "BMC Genomics"
+  pmid: 26572163
+  publication: https://doi.org/10.1186/s12864-015-2138-4
+
+- title: "NGS-based approach to determine the presence of HPV and their sites of integration in human cancer genome"
+  authors: "Chandrani P, Kulkarni V, Iyer P, Upadhyay P, Chaubal R, Das P, Mulherkar R, Singh R, Dutt A"
+  year: 2015
+  journal: "Br J Cancer"
+  pmid: 25973533
+  publication: https://doi.org/10.1038/bjc.2015.121
+
+- title: "Coexistence of KRAS mutation with mutant but not wild-type EGFR predicts response to tyrosine-kinase inhibitors in human lung cancer"
+  authors: "Choughule A, Sharma R, Trivedi V, Thavamani A, Noronha V, Joshi A, Desai S, Chandrani P, Sundaram P, Utture S, Jambhekar N, Gupta S, Aich J, Prabhash K, Dutt A"
+  year: 2014
+  journal: "Br J Cancer"
+  pmid: 25117816
+  publication: https://doi.org/10.1038/bjc.2014.401
+
+- title: "Frequency of EGFR mutations in 907 lung adenocarcioma patients of Indian ethnicity"
+  authors: "Chougule A, Prabhash K, Noronha V, Joshi A, Thavamani A, Chandrani P, Upadhyay P, Utture S, Desai S, Jambhekar N, Dutt A"
+  year: 2013
+  journal: "PLoS One"
+  pmid: 24124538
+  publication: https://doi.org/10.1371/journal.pone.0076164

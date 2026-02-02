@@ -26,10 +26,6 @@ Academic Highlights [Research Overview](https://pratikchandrani.github.io/resear
 
 •	Recipient of Foundation Day Award for outstanding PhD thesis in bioogy across all sister institutes of [Department of Atomic Energy](https://dae.gov.in/) and [Homi Bhabha National Institute](http://www.hbni.ac.in/).
 
-•	Secured funding from various federal funding agencies.
-
-•	Some of my Bioinformatics software tools are in active use by more than 300 researchers across 11 countries.
-
 •	Received numerous oral/poster presentation awards at various International/National conferences.
 
 •	Qualified UGC-CSIR National Eligibility Test (NET)

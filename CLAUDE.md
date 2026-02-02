@@ -34,8 +34,8 @@ The development server will be available at `http://localhost:4000` by default.
 ### Directory Structure
 
 **Content Areas:**
-- `_pages/`: Static pages (about, research, photography, music, open-source, index)
-- `_posts/`: Blog posts (e.g., R and ggplot data visualization examples)
+- `_pages/`: Static pages (about, research, photography, index)
+- `_posts/`: Blog posts directory (currently empty - add blog posts here)
 - `_data/`: YAML data files for structured content
   - `publications.yml`: Research publications with authors, year, links
   - `pictures.yml`: Photography gallery data
@@ -101,4 +101,4 @@ Configured in `_config.yml`:
 - The site uses a container with max-width of 900px for consistent layout
 - All layouts inherit from `default.html` which includes header, content area, and footer
 - Custom domain configured via CNAME file
-- The research page content appears to be from a different person (Eric Daoud) - this may need updating to reflect Pratik Chandrani's actual research
+- The website template was originally from Eric Daat (ericdaat.github.io) and has been adapted for Dr. Pratik Chandrani

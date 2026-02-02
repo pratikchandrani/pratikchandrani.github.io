@@ -6,7 +6,7 @@ baseurl: ""
 url: "http://pratikchandrani.github.io"
 type: website
 image:
-  path: /assets/img/pratik-chandrani.jpg
+  path: /assets/img/pratik_chandrani.png
   height: 200
   width: 200
 

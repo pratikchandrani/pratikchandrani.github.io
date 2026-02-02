@@ -6,7 +6,7 @@ layout: home
 title: Home page
 permalink: "/"
 last_modified_at: 2025-10-09
-image: /assets/img/pratik_chandrani.jpg
+image: /assets/img/pratik_chandrani.png
 ---
 
 Namaste!

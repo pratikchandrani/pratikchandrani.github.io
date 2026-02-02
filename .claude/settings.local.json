@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(findstr:*)",
+      "Bash(dir /b \"c:\\\\Users\\\\Pratik Chandrani\\\\OneDrive\\\\Email attachments\\\\Documents\\\\GitHub\\\\pratikchandrani.github.io\\\\pratikchandrani.github.io\\\\assets\\\\img\")"
+    ]
+  }
+}

@@ -4,7 +4,7 @@ title: Photography
 permalink: /photography/
 cover: camera.jpg
 last_modified_at: 2020-05-12
-image: /assets/img/eric.jpg
+image: /assets/img/pratik_chandrani.png
 ---
 
 <p class="mb-5">

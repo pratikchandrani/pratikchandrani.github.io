@@ -1,0 +1,30 @@
+current:
+  - name: Elveera
+    position: PhD Fellow
+    expertise:
+      - Genomics
+      - Computational Biology
+      - Bioinformatics
+    image: /assets/img/Elveera.jpg
+    bio: PhD fellow working on computational biology and genomics research.
+
+  - name: Isha
+    position: Project Assistant
+    expertise:
+      - Data Analysis
+      - Bioinformatics
+      - Research Support
+    image: /assets/img/Isha.jpg
+    bio: Project assistant contributing to bioinformatics and data analysis projects.
+
+  - name: Sonal
+    position: Research Associate
+    expertise:
+      - Computational Biology
+      - Data Science
+      - Cancer Genomics
+    image: /assets/img/Sonal.jpg
+    bio: Research associate specializing in computational approaches to cancer genomics.
+
+past:
+  # Past members will be added here

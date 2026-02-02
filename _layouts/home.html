@@ -2,37 +2,43 @@
 layout: default
 ---
 
-<div class="home">
-  <p>
-    <img class="rounded-circle mx-auto d-block mt-5"
-         style="width: 200px;"
-         src="/assets/img/pratik_chandrani.png"
-         alt="avatar">
-  </p>
-
-  <div class="text-center mb-5">
-    <h1>{{ site.author }}</h1>
-    <h5>{{ site.tagline }}</h5>
-  </div>
-
-  <h2>About</h2>
-  {{ content }}
-
-   <div class="row mt-5">
-
-    <div class="col">
-      <h2>
-        <!-- <i class="fas fa-pen-nib"></i> -->
-        Latest blog posts
-      </h2>
-
-      {%- for post in site.posts limit:5 -%}
-        {%- include components/post_preview.html -%}
-      {%- endfor -%}
-
-      <a href="/blog/"><p>See all posts <i class="fas fa-arrow-right"></i></p></a>
+<div class="home-page">
+  <!-- Hero Section with Video/Image -->
+  {% if page.hero_video %}
+  <section class="hero-section">
+    <div class="hero-video-container">
+      <video autoplay muted loop playsinline class="hero-video">
+        <source src="{{ page.hero_video }}" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+      <div class="hero-overlay">
+        {% if page.hero_title %}
+        <h1 class="hero-title">{{ page.hero_title }}</h1>
+        {% endif %}
+        {% if page.hero_subtitle %}
+        <p class="hero-subtitle">{{ page.hero_subtitle }}</p>
+        {% endif %}
+      </div>
     </div>
+  </section>
+  {% elsif page.hero_image %}
+  <section class="hero-section">
+    <div class="hero-image-container">
+      <img src="{{ page.hero_image }}" alt="{{ page.hero_title }}" class="hero-image">
+      <div class="hero-overlay">
+        {% if page.hero_title %}
+        <h1 class="hero-title">{{ page.hero_title }}</h1>
+        {% endif %}
+        {% if page.hero_subtitle %}
+        <p class="hero-subtitle">{{ page.hero_subtitle }}</p>
+        {% endif %}
+      </div>
+    </div>
+  </section>
+  {% endif %}
 
+  <!-- Main Content -->
+  <div class="home-content">
+    {{ content }}
   </div>
-
 </div>

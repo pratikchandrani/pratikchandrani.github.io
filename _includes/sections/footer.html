@@ -1,55 +1,26 @@
-<!-- Footer -->
-<footer class="page-footer font-small pt-4 bg-white mt-5">
-
-  <!-- Footer Links -->
-  <div class="text-center text-md-left">
-
-    <!-- Grid row -->
+<footer class="site-footer py-4 mt-5">
+  <div class="container-fluid">
     <div class="row">
-
-      <!-- Grid column -->
-      <div class="col-md-6 mt-md-0 mt-3">
-
-        <!-- Content -->
-        <h5>{{ site.author | escape }}</h5>
-        <p class="text-left">{{ site.description }}</p>
-
-        {%- if site.email -%}
-          <a href="mailto:{{ site.email }}">{{ site.email }}</a>
-        {%- endif -%}
-
+      <!-- Lab Info -->
+      <div class="col-md-6">
+        <h5 class="footer-heading">Chandrani Lab</h5>
+        <p class="footer-description">{{ site.description }}</p>
       </div>
-      <!-- Grid column -->
 
-      <hr class="clearfix w-100 d-md-none pb-3">
-
-      <!-- Grid column -->
-      <div class="col-md-3 mb-md-0 mb-3">
-
-
-      </div>
-      <!-- Grid column -->
-
-      <!-- Grid column -->
-      <div class="col-md-3 mb-md-0 mb-3">
-
-        <!-- Links -->
-        <h5>Social</h5>
-
-        <ul class="list-unstyled">
+      <!-- Social Links -->
+      <div class="col-md-6 text-md-right">
+        <h5 class="footer-heading">Connect</h5>
+        <div class="social-links">
           {%- include components/social.html -%}
-        </ul>
-
+        </div>
       </div>
-
     </div>
 
+    <!-- Copyright -->
+    <div class="row mt-4">
+      <div class="col-12 text-center footer-copyright">
+        <small>&copy; {{ 'now' | date: "%Y" }} Chandrani Lab. Built with Jekyll.</small>
+      </div>
+    </div>
   </div>
-
-  <!-- Copyright -->
-  <div class="footer-copyright text-center py-3">
-    Website Designed by Pratik Chandrani, 
-    template modified from https://github.com/ericdaat/ericdaat.github.io
-  </div>
-
 </footer>

@@ -1,6 +1,6 @@
-title: Pratik Chandrani, Computational Biologist & Data Scientist
+title: Chandrani Lab - Computational Biology & Data Science
 author: Pratik Chandrani
-tagline: Computational Biologist & Data Scientist
+tagline: Computational Biology & Data Science
 description: Chandrani Lab, Computational Biology, Bioinformatics, and Crosstalk Lab, KS-121, ACTREC - Tata Memorial Centre, Kharghar, Navi Mumbai, India.
 baseurl: ""
 url: "http://pratikchandrani.github.io"
@@ -40,19 +40,35 @@ social:
     - https://instagram.com/pratikchandrani
     - https://youtube.com/c/pratikchandrani
 
-# blog
+# Blog settings
 blog_url: /blog
 permalink: /blog/:year/:month/:day/:title/
-show_excerpts: True
-paginate: 5
-paginate_path: blog/page/:num
+show_excerpts: true
+paginate: 10
+paginate_path: /blog/page/:num
+
+# Default front matter
 defaults:
   - scope:
       path: "blog/page"
     values:
       sitemap: false
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+      comments: true
+
+# Comments
 disqus:
   shortname: pratikchandrani
+
+# Collections
+collections:
+  pages:
+    output: true
+    permalink: /:name
 
 # Build settings
 plugins:
@@ -62,3 +78,17 @@ plugins:
   - jekyll-paginate
   - jekyll-gist
   - jekyll-redirect-from
+
+# Exclude from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+  - CLAUDE.md
+  - README.md
+  - Makefile
+  - nul

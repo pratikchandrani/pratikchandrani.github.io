@@ -2,7 +2,14 @@
   "permissions": {
     "allow": [
       "Bash(findstr:*)",
-      "Bash(dir /b \"c:\\\\Users\\\\Pratik Chandrani\\\\OneDrive\\\\Email attachments\\\\Documents\\\\GitHub\\\\pratikchandrani.github.io\\\\pratikchandrani.github.io\\\\assets\\\\img\")"
+      "Bash(dir /b \"c:\\\\Users\\\\Pratik Chandrani\\\\OneDrive\\\\Email attachments\\\\Documents\\\\GitHub\\\\pratikchandrani.github.io\\\\pratikchandrani.github.io\\\\assets\\\\img\")",
+      "WebFetch(domain:scholar.google.co.in)",
+      "Bash(bundle exec jekyll serve:*)",
+      "Bash(gem install:*)",
+      "Bash(bundle install:*)",
+      "Bash(bundler update:*)",
+      "Bash(gem uninstall:*)",
+      "Bash(ruby -e:*)"
     ]
   }
 }

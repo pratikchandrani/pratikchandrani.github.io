@@ -1,0 +1,56 @@
+<div class="person-card">
+  <div class="person-card-image">
+    {% if person.image %}
+    <img src="{{ person.image }}" alt="{{ person.name }}" class="img-fluid rounded-circle">
+    {% else %}
+    <div class="person-placeholder">
+      <span>{{ person.name | slice: 0 }}</span>
+    </div>
+    {% endif %}
+  </div>
+
+  <div class="person-card-content">
+    <h3 class="person-name">{{ person.name }}</h3>
+
+    {% if person.position %}
+    <p class="person-position">{{ person.position }}</p>
+    {% endif %}
+
+    {% if person.expertise %}
+    <div class="person-expertise">
+      {% for skill in person.expertise %}
+      <span class="expertise-tag">{{ skill }}</span>
+      {% endfor %}
+    </div>
+    {% endif %}
+
+    {% if person.bio %}
+    <p class="person-bio">{{ person.bio }}</p>
+    {% endif %}
+
+    {% if person.email or person.github or person.linkedin or person.scholar %}
+    <div class="person-links">
+      {% if person.email %}
+      <a href="mailto:{{ person.email }}" class="person-link" title="Email">
+        <i class="fas fa-envelope"></i>
+      </a>
+      {% endif %}
+      {% if person.github %}
+      <a href="https://github.com/{{ person.github }}" class="person-link" title="GitHub" target="_blank">
+        <i class="fab fa-github"></i>
+      </a>
+      {% endif %}
+      {% if person.linkedin %}
+      <a href="https://linkedin.com/in/{{ person.linkedin }}" class="person-link" title="LinkedIn" target="_blank">
+        <i class="fab fa-linkedin"></i>
+      </a>
+      {% endif %}
+      {% if person.scholar %}
+      <a href="https://scholar.google.com/citations?user={{ person.scholar }}" class="person-link" title="Google Scholar" target="_blank">
+        <i class="fas fa-graduation-cap"></i>
+      </a>
+      {% endif %}
+    </div>
+    {% endif %}
+  </div>
+</div>

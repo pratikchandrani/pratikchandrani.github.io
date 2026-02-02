@@ -2,50 +2,74 @@
 layout: default
 ---
 
-{% assign post=page %}
+<article class="blog-post" itemscope itemtype="http://schema.org/BlogPosting">
 
-{%- if page.cover -%}
-  <img alt="cover" class="img-cover mt-4 mb-2" src="/assets/img/covers/{{ page.cover }}">
-{%- endif -%}
+  <!-- Post Header -->
+  <header class="post-header">
+    <h1 class="post-title" itemprop="name headline">{{ page.title | escape }}</h1>
 
-<article itemscope itemtype="http://schema.org/BlogPosting">
-
-  <div class="mt-4">
-    <h1 itemprop="name headline">{{ page.title | escape }}</h1>
-
-    <ul class="list-inline">
-        {% for category in post.categories %}
-            <li class="list-inline-item">
-                <span class="badge badge-secondary">{{category}}</span>
-            </li>
-        {% endfor %}
-    </ul>
-
-    <time class="font-italic" datetime="{{ post.date | date_to_xmlschema }}" itemprop="datePublished">
-      {{ post.date | date: "%b %-d, %Y" }}
-    </time>
-  </div>
-
-  <div itemprop="articleBody">
-    <div class="mt-3 mb-5" itemprop="abstract">
-      <p class="font-italic">{{ page.excerpt }}</p>
+    <div class="post-meta">
+      <time class="post-date" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
+        {{ page.date | date: "%B %-d, %Y" }}
+      </time>
+      {% if page.author %}
+      <span class="post-author">by {{ page.author }}</span>
+      {% endif %}
     </div>
 
-    <div>
-      {{ content }}
+    <!-- Tags -->
+    {% if page.tags %}
+    <div class="post-tags">
+      {% for tag in page.tags %}
+      <a href="/blog/tags/#{{ tag | slugify }}" class="tag">{{ tag }}</a>
+      {% endfor %}
     </div>
+    {% endif %}
+  </header>
+
+  <!-- Featured Image -->
+  {% if page.image %}
+  <div class="post-image">
+    <img src="{{ page.image }}" alt="{{ page.title }}" class="img-fluid">
+  </div>
+  {% endif %}
+
+  <!-- Post Excerpt -->
+  {% if page.excerpt %}
+  <div class="post-excerpt" itemprop="abstract">
+    <p>{{ page.excerpt }}</p>
+  </div>
+  {% endif %}
+
+  <!-- Post Content -->
+  <div class="post-content" itemprop="articleBody">
+    {{ content }}
   </div>
 
-  <div class="mt-5">
-    {%- include components/more_posts.html -%}
-  </div>
+  <!-- Post Footer -->
+  <footer class="post-footer">
+    <!-- Tags (repeated for visibility) -->
+    {% if page.tags %}
+    <div class="post-tags-footer">
+      <strong>Tags:</strong>
+      {% for tag in page.tags %}
+      <a href="/blog/tags/#{{ tag | slugify }}" class="tag">{{ tag }}</a>
+      {% endfor %}
+    </div>
+    {% endif %}
 
-  <div class="mt-5">
-    {%- if site.disqus.shortname and page.comments != false -%}
-      {%- include components/disqus_comments.html -%}
-    {%- endif -%}
+    <!-- Related Posts -->
+    <div class="related-posts">
+      {%- include components/more_posts.html -%}
+    </div>
+  </footer>
+
+  <!-- Comments -->
+  {% if site.disqus.shortname and page.comments != false %}
+  <div class="post-comments">
+    {%- include components/disqus_comments.html -%}
   </div>
+  {% endif %}
 
   <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
-
 </article>

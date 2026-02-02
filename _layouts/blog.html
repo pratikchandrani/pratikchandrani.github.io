@@ -1,0 +1,47 @@
+---
+layout: default
+---
+
+<div class="blog-index">
+  <header class="blog-header">
+    <h1 class="blog-title">{{ page.title | default: "Blog" }}</h1>
+    {% if page.subtitle %}
+    <p class="blog-subtitle">{{ page.subtitle }}</p>
+    {% endif %}
+  </header>
+
+  <!-- Tag Cloud (if on main blog page) -->
+  {% if page.url == '/blog/' or page.url == '/blog/index.html' %}
+  <div class="tag-cloud">
+    {% assign all_tags = site.tags | sort %}
+    <div class="tag-cloud-container">
+      <strong>Browse by tag:</strong>
+      {% for tag in all_tags %}
+      <a href="/blog/tags/#{{ tag[0] | slugify }}" class="tag">{{ tag[0] }} ({{ tag[1].size }})</a>
+      {% endfor %}
+    </div>
+  </div>
+  {% endif %}
+
+  <!-- Blog Posts List -->
+  <div class="posts-list">
+    {{ content }}
+  </div>
+
+  <!-- Pagination -->
+  {% if paginator.total_pages > 1 %}
+  <nav class="pagination">
+    {% if paginator.previous_page %}
+    <a href="{{ paginator.previous_page_path | relative_url }}" class="pagination-link">&larr; Newer Posts</a>
+    {% endif %}
+
+    <span class="pagination-info">
+      Page {{ paginator.page }} of {{ paginator.total_pages }}
+    </span>
+
+    {% if paginator.next_page %}
+    <a href="{{ paginator.next_page_path | relative_url }}" class="pagination-link">Older Posts &rarr;</a>
+    {% endif %}
+  </nav>
+  {% endif %}
+</div>

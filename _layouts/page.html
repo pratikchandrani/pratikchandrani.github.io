@@ -2,11 +2,15 @@
 layout: default
 ---
 
-<header class="mt-4">
-  <h1>{{ page.title | escape }}</h1>
-</header>
+<article class="page">
+  <header class="page-header">
+    <h1 class="page-title">{{ page.title | escape }}</h1>
+    {% if page.subtitle %}
+    <p class="page-subtitle">{{ page.subtitle }}</p>
+    {% endif %}
+  </header>
 
-<div class="mt-4">
-  {{ content }}
-</div>
-
+  <div class="page-content">
+    {{ content }}
+  </div>
+</article>

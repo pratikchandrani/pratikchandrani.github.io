@@ -19,7 +19,7 @@ sitemap: false
     <h2>Last blog posts</h2>
 
     {%- for post in site.posts limit:5 -%}
-      {%- include components/post_preview.html -%}
+      {%- include components/blog-card.html -%}
     {%- endfor -%}
   </div>
 </div>

@@ -13,12 +13,12 @@ hero_subtitle: Computational Biology & Data Science
     <p>
       Welcome to the Chandrani Lab at <a href="https://actrec.gov.in/" target="_blank">ACTREC, Tata Memorial Centre</a>.
       We are a computational biology and genomics research group focused on understanding cancer biology through
-      integrative genomics and data science approaches.
+      integrative omics and data science approaches.
     </p>
     <p>
-      Our research combines computational methods, artificial intelligence, and large-scale data analysis to uncover
+      Our research combines computational methods, artificial intelligence, and biological model systems to uncover
       molecular mechanisms of cancer and develop precision medicine solutions. We work at the intersection of genomics,
-      bioinformatics, and clinical oncology to translate computational insights into actionable knowledge.
+      bioinformatics, and clinical oncology to translate biological insights into actionable knowledge.
     </p>
   </div>
   <div class="col-md-4 text-center">
@@ -26,6 +26,25 @@ hero_subtitle: Computational Biology & Data Science
     <h4 class="mt-3">Dr. Pratik Chandrani</h4>
     <p class="text-muted">Assistant Professor<br>Principal Investigator</p>
   </div>
+</div>
+
+<div class="section mb-5">
+  <h2>Biography</h2>
+  <p>
+    Dr. Pratik Chandrani is a Principal Investigator at the <a href="https://actrec.gov.in/" target="_blank">Advanced Centre for Treatment, Research and Education in Cancer (ACTREC)</a>, Tata Memorial Centre, Navi Mumbai, India. He leads a research group focused on computational biology and cancer genomics, working to bridge the gap between large-scale molecular data and clinical decision-making.
+  </p>
+  <p>
+    His scientific journey began with master's in basic biology, which he later complemented with another master's in bioinformatics. During his doctoral work under the guidance of Dr. Amit Dutt, he (1) discovered novel oncogene and therapeutic target FGFR3 in lung adenocarcinoma, (2) developed HPVDetector - an easy to use computational tool to quickly analyse HPV from next-generation sequencing dataset, (3) developed computational approaches for integrating multi-omics data to identify biologically meaningful alterations in a small cohort data. His PhD thesis was recognized with the <strong>Foundation Day Award</strong> for the outstanding doctoral work in biology across all institutes of the Department of Atomic Energy, Government of India. A significant translational outcome of his further post-PhD research is <strong>ClinOme</strong>, a precision medicine platform that has been successfully technology transferred.
+  </p>
+  <p>
+    Over the past decade, Dr. Chandrani has contributed to more than 60 peer-reviewed publications and conference publications spanning thyroid cancer, lung cancer, breast cancer, head and neck malignancies, and other tumor types. He further contributed to foundation of Molecular Tumor Board (MTB) clinics in close collaboration with clinicians at Tata Memorial Hospital (Dr. Kumar Prabhash, Dr. Vanita Noronha, Dr. Anuradha Chougule) and Dr. Amit Dutt (ACTREC). Dr. Chandrani also led the efforts to establish High-Performace Computing (HPC) at ACTREC - a 6,000 sq.ft. central facility providing supercomputing service to biological and clinical research community.
+  </p>
+  <p>
+    His current research interests include developing machine learning models for cancer diagnosis and prognosis, understanding the genomic landscape of cancers prevalent in India, and building clinical bioinformatics pipelines that can operate in real-world healthcare settings. He is particularly interested in making genomic medicine accessible and actionable for patients in resource-constrained environments.
+  </p>
+  <p>
+    Beyond research, he is committed to training the next generation of computational biologists and fostering collaborations between clinicians, biologists, and data scientists. When not in the lab, he enjoys photography, hiking, and exploring the outdoors.
+  </p>
 </div>
 
 <div class="section mb-5">

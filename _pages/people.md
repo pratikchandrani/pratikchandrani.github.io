@@ -22,11 +22,10 @@ permalink: /people/
           <span class="expertise-tag">Precision Medicine</span>
         </div>
         <p class="person-bio">
-          Dr. Pratik Chandrani leads the Computational Biology & Bioinformatics research group at ACTREC,
+          Dr. Pratik Chandrani leads the Computational Biology, Bioinformatics and Crosstalk research group at ACTREC,
           Tata Memorial Centre. His research focuses on integrative genomics approaches to understand cancer
           biology and develop precision medicine solutions. He is the recipient of the Foundation Day Award
-          for outstanding PhD thesis and has successfully technology-transferred the precision medicine
-          solution 'ClinOme'.
+          for outstanding PhD thesis.
         </p>
         <div class="person-links">
           <a href="mailto:pchandrani@actrec.gov.in" class="person-link" title="Email">

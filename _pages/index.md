@@ -2,7 +2,7 @@
 layout: home
 title: Home
 permalink: "/"
-hero_video: /assets/video/digital_cell_v4_20260203.mp4
+hero_video: /assets/video/digital_cell_v5_20260203.mp4
 hero_title: Chandrani Lab
 hero_subtitle: Computational Biology & Data Science
 ---
@@ -12,7 +12,7 @@ hero_subtitle: Computational Biology & Data Science
     <h2>About the Lab</h2>
     <p>
       Welcome to the Chandrani Lab at <a href="https://actrec.gov.in/" target="_blank">ACTREC, Tata Memorial Centre</a>.
-      We are a computational biology and bioinformatics research group focused on understanding cancer biology through
+      We are a computational biology and genomics research group focused on understanding cancer biology through
       integrative genomics and data science approaches.
     </p>
     <p>

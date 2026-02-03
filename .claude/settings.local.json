@@ -9,7 +9,11 @@
       "Bash(bundle install:*)",
       "Bash(bundler update:*)",
       "Bash(gem uninstall:*)",
-      "Bash(ruby -e:*)"
+      "Bash(ruby -e:*)",
+      "WebSearch",
+      "WebFetch(domain:pmc.ncbi.nlm.nih.gov)",
+      "WebFetch(domain:www.frontiersin.org)",
+      "Bash(curl:*)"
     ]
   }
 }

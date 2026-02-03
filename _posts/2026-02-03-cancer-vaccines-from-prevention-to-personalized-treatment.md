@@ -10,6 +10,7 @@ tags:
   - mRNA
   - Precision Medicine
   - Neoantigens
+  - FDA Approvals
 excerpt: A look at cancer vaccines -- where we've been, what's approved, and where the field is heading with personalized mRNA approaches.
 ---
 

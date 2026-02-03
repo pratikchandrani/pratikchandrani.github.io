@@ -7,15 +7,19 @@ current:
       - Computational Biology
     image: /assets/img/Elveera.jpg
     bio: PhD fellow working on genomics research to identify novel therapeutic targets for cancer.
+    linkedin: elveera-saldanha-98385112b
+    scholar:
 
   - name: Isha Shinde
     position: PhD Fellow
     expertise:
       - Computational Biology
-      - Artifical Intelligence
+      - Artificial Intelligence
       - Structural Biology
     image: /assets/img/Isha.jpg
-    bio: PhD fellow working on developing artifical intelligence models to design cancer therapeutics.
+    bio: PhD fellow working on developing artificial intelligence models to design cancer therapeutics.
+    linkedin: isha-shinde-39bb5316b
+    scholar:
 
   - name: Sonal Sharma
     position: PhD Fellow
@@ -24,7 +28,9 @@ current:
       - Molecular Biology
       - Genomics
     image: /assets/img/Sonal.jpg
-    bio: PhD fellow specializing in gut microbiome and its role in cancer biology.
+    bio: PhD fellow studying gut microbiome and its role in precision immunotherapy.
+    linkedin: sonal-sharma-bb6b571ab
+    scholar:
 
 past:
   # Past members will be added here

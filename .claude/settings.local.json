@@ -13,7 +13,11 @@
       "WebSearch",
       "WebFetch(domain:pmc.ncbi.nlm.nih.gov)",
       "WebFetch(domain:www.frontiersin.org)",
-      "Bash(curl:*)"
+      "Bash(curl:*)",
+      "Bash(dir \"C:\\\\Users\\\\Pratik Chandrani\\\\OneDrive\\\\Email attachments\\\\Documents\\\\GitHub\\\\pratikchandrani.github.io\\\\pratikchandrani.github.io\\\\assets\\\\video\")",
+      "Bash(powershell -command:*)",
+      "Bash(forfiles:*)",
+      "Bash(dir /s \"C:\\\\Users\\\\Pratik Chandrani\\\\OneDrive\\\\Email attachments\\\\Documents\\\\GitHub\\\\pratikchandrani.github.io\\\\pratikchandrani.github.io\\\\assets\\\\video\\\\*.mp4\")"
     ]
   }
 }

@@ -7,7 +7,7 @@ layout: default
   {% if page.hero_video %}
   <section class="hero-section">
     <div class="hero-video-container">
-      <video autoplay muted loop playsinline class="hero-video">
+      <video autoplay muted loop playsinline webkit-playsinline preload="auto" class="hero-video" id="hero-video">
         <source src="{{ page.hero_video }}" type="video/mp4">
         Your browser does not support the video tag.
       </video>
@@ -35,6 +35,28 @@ layout: default
       </div>
     </div>
   </section>
+  {% endif %}
+
+  {% if page.hero_video %}
+  <script>
+    // Force video playback on mobile devices
+    document.addEventListener('DOMContentLoaded', function() {
+      var video = document.getElementById('hero-video');
+      if (video) {
+        // Attempt to play the video
+        var playPromise = video.play();
+        if (playPromise !== undefined) {
+          playPromise.catch(function(error) {
+            // Auto-play was prevented, try on user interaction
+            document.addEventListener('touchstart', function onTouch() {
+              video.play();
+              document.removeEventListener('touchstart', onTouch);
+            }, { once: true });
+          });
+        }
+      }
+    });
+  </script>
   {% endif %}
 
   <!-- Main Content -->

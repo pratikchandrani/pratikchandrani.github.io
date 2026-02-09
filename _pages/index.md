@@ -92,7 +92,7 @@ hero_subtitle: Computational Biology & Data Science
     </div>
     <div class="col-md-4 text-center">
       <p class="mb-2"><strong>Scan to Apply</strong></p>
-      <img src="/assets/img/PC_group_GoogleForms_QR_20260203.png" alt="Application QR Code" class="img-fluid" style="max-width: 200px;">
+      <img src="/assets/img/PC_group_GoogleForms_QR_20260209.png" alt="Application QR Code" class="img-fluid" style="max-width: 200px;">
     </div>
   </div>
 </div>

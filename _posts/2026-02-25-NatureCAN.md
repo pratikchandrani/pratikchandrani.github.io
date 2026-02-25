@@ -56,7 +56,7 @@ What NatureCAN reveals is that the ancient pharmacopoeia is not waiting to be di
 NatureCAN is our contribution to that effort—a step toward illuminating ancient science through modern, data-driven validation for cancer care.
 Happy Sciencing!
 
-<strong>Credits:</strong> This work was conducted in collaboration with Dr. Vikram Gota, Dr. Archana Redhu, Dr. Priyanka Singh at Clinical Pharmacology at ACTREC. We acknowledge the funding support from Department of Biotechnology (DBT: BT/PR40181/BTIS/137/15/2021, BT/PR40231/BTIS/137/63/2023, BT/PR50410/MED/12/1122/2023) and Ministry of Ayush. Visit the Chandrani lab website for more interesting research.
+<strong>Credits:</strong> This work was conducted in collaboration with Dr. Vikram Gota, Dr. Archana Redhu, Dr. Priyanka Singh at <a href="https://clinicalpharmacolo9.wixsite.com/department-of-clinic">Clinical Pharmacology</a> at ACTREC. We acknowledge the funding support from <a href="https://dbtindia.gov.in/">Department of Biotechnology</a> (DBT: BT/PR40181/BTIS/137/15/2021, BT/PR40231/BTIS/137/63/2023, BT/PR50410/MED/12/1122/2023) and <a href="https://ayush.gov.in/">Ministry of Ayush</a>. Visit the <a href="https://pratikchandrani.github.io/">Chandrani lab</a> website for more interesting research.
 
 <strong>References:</strong>
 1.	Chiu, P.W., et al., The effect of Andrographis paniculata water extract on palliative management of metastatic esophageal squamous cell carcinoma-A phase II clinical trial. Phytother Res, 2023. 37(8): p. 3438-3452.

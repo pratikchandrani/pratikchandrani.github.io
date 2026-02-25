@@ -33,13 +33,15 @@ We have developed NatureCAN—an evidence-based knowledge base focused on medici
 
 <figure style="text-align: center; margin: 2em 0;">
 <img src="/assets/img/blog/NatureCAN_workflow.png" alt="A thematic workflow of NatureCAN database development" style="max-width: 100%; height: auto;">
-<figcaption style="font-size: 0.85em; color: #666; margin-top: 0.5em;"><strong>Figure 1.</strong></em></figure>
+<figcaption style="font-size: 0.85em; color: #666; margin-top: 0.5em;"><strong>Figure 1.</strong>A thematic workflow of NatureCAN database development.</em></figcaption>
+</figure>
 
 NatureCAN currently covers 12,682 research articles spanning 1,496 medicinal plants. For each article, users can explore which cancer types were investigated, what model systems were used (human cell lines, animal models, or human patients), and whether any safety or toxicity data was reported. It is, as far as we know, the most comprehensive structured evidence base of its kind. For example, one can search for Curcuma Longa (turmeric) in NatureCAN and find more than 600 articles, as shown in the following barplot:
 
 <figure style="text-align: center; margin: 2em 0;">
 <img src="/assets/img/blog/NatureCAN_Curcuma_barchart.png" alt="A bar chart depicting number of publications of Curcuma longa in cancer for each category of modern biological study" style="max-width: 100%; height: auto;">
-<figcaption style="font-size: 0.85em; color: #666; margin-top: 0.5em;"><strong>Figure 2.</strong></em></figure>
+<figcaption style="font-size: 0.85em; color: #666; margin-top: 0.5em;"><strong>Figure 2.</strong>A bar chart depicting number of publications of Curcuma longa in cancer for each category of modern biological study.</em></figcaption>
+</figure>
 
 
 A total of 622 articles on Curcuma longa include more than 350 in vitro experiments, 100 in vivo studies, 150 reviews, and about 20 clinical trials. What makes curcumin’s story so interesting is its breadth. The NatureCAN data shows it has been studied against at least 55 distinct cancer types—from common malignancies like breast, colon, and lung cancer to rare ones like cholangiocarcinoma and Burkitt’s lymphoma. Interestingly, clinical trial data show compelling evidence in breast cancer and colorectal cancer, while most other cancer types are yet to be tested through clinical trials. Similarly, users interested in specific cancer type, laboratory model, phytochemical can also find specific evidence using NatureCAN. This is precisely the kind of data NatureCAN makes visible: the promise is real, but the road from laboratory to bedside is long, and the bottleneck is clinical, not biological.
